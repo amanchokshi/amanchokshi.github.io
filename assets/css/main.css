@@ -186,6 +186,7 @@ input, select, textarea {
 	a:hover {
 		border-bottom-color: transparent;
 		color: #E5E6E0 !important;
+		border-bottom: dotted 1px #DA3752;
 	}
 
 	a.special:not(.button) {
@@ -7332,6 +7333,10 @@ input, select, textarea {
 	}
 
 /* Wrapper (style2) */
+
+	.wrapper.style2 div.inner {
+		padding-top: 2rem;
+	}
 
 	.wrapper.style2 {
 		padding: 7rem;
