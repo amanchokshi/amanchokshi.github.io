@@ -259,7 +259,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #E5E6E0;
 		font-family: Bitter, serif;
-        /* font-style: italic; */
+		/* font-style: italic; */
 		font-weight: 500;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -3500,6 +3500,22 @@ input, select, textarea {
 		opacity: 0;
 	}
 
+@media screen and (max-width: 768px) {
+	#banner {
+		padding-bottom: 54%;
+	}
+	#banner h1 {
+		font-size: 2.1em;
+	}
+	#banner p {
+		font-size: 0.6em;
+	}
+
+	#banner img {
+		object-position: 91%;
+	}
+}
+
 /* Banner (style1) */
 
 	.banner.style1 {
@@ -4411,7 +4427,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
+				/* padding: 2.5rem 2rem 0.5rem 2rem ; */
+				padding: 0rem 0rem 0rem 0rem ;
+			}
+			.banner.style5 h1 {
+				font-size: 0.4em;
 			}
 
 		}
